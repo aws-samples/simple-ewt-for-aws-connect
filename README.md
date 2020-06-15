@@ -1,4 +1,4 @@
-Knowing how much time a customer has to wait in a call center queue before being transfered to an agent is a useful functionality to have - unfortunately, Amazon Connect does not provide this metric out of the box.
+Knowing how much time a customer has to wait in a call center queue before being transferred to an agent is a useful functionality to have - unfortunately, Amazon Connect does not provide this metric out of the box.
 
 What is does provide, however, is the wait time for the longest waiting customer in a given queue.
 
@@ -12,7 +12,7 @@ The dynamic EWT will be presented to the customer while he/she is waiting in the
 1. A working instance of Connect
 2. A simple contact flow to transfer incoming calls to a queue and a Customer Queue to loop the waiting music and insert the EWT message.
 
-If you already have a Connect instance and are familiar with Amazon Connect, you can skip steps 1 and 2.
+If you already have a Connect instance and are familiar with Amazon Connect, you can skip step 1.
 
 ## What services are we going to use?
 
